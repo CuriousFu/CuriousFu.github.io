@@ -1,3 +1,13 @@
+---
+layout: post
+title: windows 绿色版mysql配置
+category: 工具
+tags: Essay
+keywords: 
+description: 
+---
+
+
 **写在前面**：5.7增加了安全性，默认root密码不在为空，而是初始化时随机生成一个root密码，改root密码的方式也不一样了
 
 下载地址 http://dev.mysql.com/downloads/mysql/
