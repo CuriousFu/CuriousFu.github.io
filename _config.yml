@@ -1,0 +1,50 @@
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: pygments
+encoding: utf-8
+
+kramdown:
+  input: GFM
+
+# 作者信息
+author:
+  name: 笑看古今风流
+  email: jyfu2_12@163.com
+  link: https://CuriousFu.github.io/
+  weibo: https://weibo.com/3316056771
+  github: https://github.com/CuriousFu
+
+# 站点信息
+title: 笑看古今风流
+description: 个人博客(Jekyll);整理、记载关于工具/资源/生活/技术/读书/影音等经验和思考;
+url: https://CuriousFu.github.io
+rss_url: /pages/atom.xml
+
+# avatar头像及Favicon
+avatar: /assets/images/CuriousFu-icon.jpg
+# favicon: https://www.jeffjade.com/img/xuan.ico
+
+# google analytics 设置
+ga:
+  id: UA-86109050-1
+  url: CuriousFu.github.io
+
+# disqus 设置
+#disqus:
+  #shortname: yunjeffblog
+
+#rake configuration on 2016-03-01
+post:
+  template: _post.txt
+  extension: md
+page:
+  template: _page.txt
+  extension: md
+editor: atom
+git:
+  branch: master
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ~/Git/CuriousFu.github.com/
